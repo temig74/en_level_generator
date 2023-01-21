@@ -1,0 +1,1 @@
+<script type="text/javascript">document.getElementById("img_{level_num}_{i}").innerHTML="<img src=https://cdn.endata.cx/images/empty.gif width=200>";</script>
