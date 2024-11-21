@@ -60,142 +60,6 @@
           <property name="spacing">
            <number>3</number>
           </property>
-          <item row="3" column="4">
-           <widget class="QCheckBox" name="checkBox_yo">
-            <property name="text">
-             <string>Е = Ё</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="2">
-           <widget class="QPushButton" name="btn_loadSectors">
-            <property name="font">
-             <font>
-              <pointsize>7</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>Выгр. секторы</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
-           <widget class="QLabel" name="label_domain">
-            <property name="text">
-             <string>Домен</string>
-            </property>
-           </widget>
-          </item>
-          <item row="4" column="0">
-           <widget class="QLabel" name="label_levelNum">
-            <property name="text">
-             <string>№ уровня</string>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="0">
-           <widget class="QLabel" name="label_gameId">
-            <property name="text">
-             <string>id игры</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="1">
-           <widget class="QLineEdit" name="lineEdit_domain">
-            <property name="text">
-             <string>tech.en.cx</string>
-            </property>
-           </widget>
-          </item>
-          <item row="4" column="1">
-           <widget class="QSpinBox" name="spinBox_levelNum">
-            <property name="maximumSize">
-             <size>
-              <width>40</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-            <property name="value">
-             <number>1</number>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label_pass">
-            <property name="text">
-             <string>Пароль</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEdit_password">
-            <property name="text">
-             <string>password</string>
-            </property>
-            <property name="echoMode">
-             <enum>QLineEdit::Password</enum>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="1">
-           <widget class="QLineEdit" name="lineEdit_gameId">
-            <property name="text">
-             <string>75356</string>
-            </property>
-           </widget>
-          </item>
-          <item row="4" column="3">
-           <widget class="QSpinBox" name="spinBox_startLoad">
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-            <property name="value">
-             <number>1</number>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="2">
-           <widget class="QPushButton" name="btn_loadTask">
-            <property name="font">
-             <font>
-              <pointsize>7</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>Выгр. задание</string>
-            </property>
-           </widget>
-          </item>
-          <item row="4" column="2">
-           <widget class="QLabel" name="label_startLoad">
-            <property name="text">
-             <string>Старт/ конец</string>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="3">
-           <widget class="QSpinBox" name="spinBox_uploadDelay">
-            <property name="maximum">
-             <number>100000</number>
-            </property>
-            <property name="value">
-             <number>1500</number>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="2">
-           <widget class="QPushButton" name="btn_loadBonuses">
-            <property name="text">
-             <string>Выгр. бонусы</string>
-            </property>
-           </widget>
-          </item>
           <item row="0" column="3" rowspan="3" colspan="2">
            <widget class="QGroupBox" name="groupBox">
             <property name="title">
@@ -246,17 +110,123 @@
             </layout>
            </widget>
           </item>
-          <item row="4" column="4">
-           <widget class="QSpinBox" name="spinBox_endLoad">
-            <property name="maximum">
-             <number>1000</number>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="btn_loadSectors">
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Выгр. секторы</string>
             </property>
            </widget>
           </item>
-          <item row="0" column="0">
-           <widget class="QLabel" name="label_login">
+          <item row="3" column="4">
+           <widget class="QCheckBox" name="checkBox_yo">
             <property name="text">
-             <string>Логин</string>
+             <string>Е = Ё</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_domain">
+            <property name="text">
+             <string>Домен</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_gameId">
+            <property name="text">
+             <string>id игры</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEdit_domain">
+            <property name="text">
+             <string>tech.en.cx</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_levelNum">
+            <property name="text">
+             <string>№ уровня</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_password">
+            <property name="text">
+             <string>password</string>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEdit_gameId">
+            <property name="text">
+             <string>75356</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QSpinBox" name="spinBox_startLoad">
+            <property name="maximum">
+             <number>1000</number>
+            </property>
+            <property name="value">
+             <number>1</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_pass">
+            <property name="text">
+             <string>Пароль</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLabel" name="label_startLoad">
+            <property name="text">
+             <string>Старт/ конец</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="btn_loadBonuses">
+            <property name="text">
+             <string>Выгр. бонусы</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="btn_loadTask">
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Выгр. задание</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QSpinBox" name="spinBox_uploadDelay">
+            <property name="maximum">
+             <number>100000</number>
+            </property>
+            <property name="value">
+             <number>1500</number>
             </property>
            </widget>
           </item>
@@ -267,10 +237,40 @@
             </property>
            </widget>
           </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_login">
+            <property name="text">
+             <string>Логин</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QSpinBox" name="spinBox_endLoad">
+            <property name="maximum">
+             <number>1000</number>
+            </property>
+           </widget>
+          </item>
           <item row="3" column="2">
            <widget class="QLabel" name="label_uploadDelay">
             <property name="text">
              <string>Задержка, мс</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QSpinBox" name="spinBox_levelNum">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="maximum">
+             <number>1000</number>
+            </property>
+            <property name="value">
+             <number>1</number>
             </property>
            </widget>
           </item>
@@ -336,14 +336,14 @@
           <item row="0" column="1">
            <widget class="QLineEdit" name="lineEdit_yandexClass">
             <property name="text">
-             <string>serp-item__thumb</string>
+             <string>avatars.mds.yandex.net.*?n=13</string>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
            <widget class="QLineEdit" name="lineEdit_googleClass">
             <property name="text">
-             <string>yWs4tf</string>
+             <string>DS1iW</string>
             </property>
            </widget>
           </item>
@@ -539,8 +539,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>721</width>
-             <height>332</height>
+             <width>98</width>
+             <height>28</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_3">

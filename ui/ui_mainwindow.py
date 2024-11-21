@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'ui_mainwindow.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.2
+## Created by: Qt User Interface Compiler version 6.8.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -44,94 +44,6 @@ class Ui_MainWindow(object):
         self.gridLayout.setSpacing(3)
         self.gridLayout.setObjectName(u"gridLayout")
         self.gridLayout.setContentsMargins(5, 5, -1, 5)
-        self.checkBox_yo = QCheckBox(self.groupBox_loadEngine)
-        self.checkBox_yo.setObjectName(u"checkBox_yo")
-        self.checkBox_yo.setChecked(True)
-
-        self.gridLayout.addWidget(self.checkBox_yo, 3, 4, 1, 1)
-
-        self.btn_loadSectors = QPushButton(self.groupBox_loadEngine)
-        self.btn_loadSectors.setObjectName(u"btn_loadSectors")
-        font = QFont()
-        font.setPointSize(7)
-        self.btn_loadSectors.setFont(font)
-
-        self.gridLayout.addWidget(self.btn_loadSectors, 1, 2, 1, 1)
-
-        self.label_domain = QLabel(self.groupBox_loadEngine)
-        self.label_domain.setObjectName(u"label_domain")
-
-        self.gridLayout.addWidget(self.label_domain, 2, 0, 1, 1)
-
-        self.label_levelNum = QLabel(self.groupBox_loadEngine)
-        self.label_levelNum.setObjectName(u"label_levelNum")
-
-        self.gridLayout.addWidget(self.label_levelNum, 4, 0, 1, 1)
-
-        self.label_gameId = QLabel(self.groupBox_loadEngine)
-        self.label_gameId.setObjectName(u"label_gameId")
-
-        self.gridLayout.addWidget(self.label_gameId, 3, 0, 1, 1)
-
-        self.lineEdit_domain = QLineEdit(self.groupBox_loadEngine)
-        self.lineEdit_domain.setObjectName(u"lineEdit_domain")
-
-        self.gridLayout.addWidget(self.lineEdit_domain, 2, 1, 1, 1)
-
-        self.spinBox_levelNum = QSpinBox(self.groupBox_loadEngine)
-        self.spinBox_levelNum.setObjectName(u"spinBox_levelNum")
-        self.spinBox_levelNum.setMaximumSize(QSize(40, 16777215))
-        self.spinBox_levelNum.setMaximum(1000)
-        self.spinBox_levelNum.setValue(1)
-
-        self.gridLayout.addWidget(self.spinBox_levelNum, 4, 1, 1, 1)
-
-        self.label_pass = QLabel(self.groupBox_loadEngine)
-        self.label_pass.setObjectName(u"label_pass")
-
-        self.gridLayout.addWidget(self.label_pass, 1, 0, 1, 1)
-
-        self.lineEdit_password = QLineEdit(self.groupBox_loadEngine)
-        self.lineEdit_password.setObjectName(u"lineEdit_password")
-        self.lineEdit_password.setEchoMode(QLineEdit.Password)
-
-        self.gridLayout.addWidget(self.lineEdit_password, 1, 1, 1, 1)
-
-        self.lineEdit_gameId = QLineEdit(self.groupBox_loadEngine)
-        self.lineEdit_gameId.setObjectName(u"lineEdit_gameId")
-
-        self.gridLayout.addWidget(self.lineEdit_gameId, 3, 1, 1, 1)
-
-        self.spinBox_startLoad = QSpinBox(self.groupBox_loadEngine)
-        self.spinBox_startLoad.setObjectName(u"spinBox_startLoad")
-        self.spinBox_startLoad.setMaximum(1000)
-        self.spinBox_startLoad.setValue(1)
-
-        self.gridLayout.addWidget(self.spinBox_startLoad, 4, 3, 1, 1)
-
-        self.btn_loadTask = QPushButton(self.groupBox_loadEngine)
-        self.btn_loadTask.setObjectName(u"btn_loadTask")
-        self.btn_loadTask.setFont(font)
-
-        self.gridLayout.addWidget(self.btn_loadTask, 0, 2, 1, 1)
-
-        self.label_startLoad = QLabel(self.groupBox_loadEngine)
-        self.label_startLoad.setObjectName(u"label_startLoad")
-
-        self.gridLayout.addWidget(self.label_startLoad, 4, 2, 1, 1)
-
-        self.spinBox_uploadDelay = QSpinBox(self.groupBox_loadEngine)
-        self.spinBox_uploadDelay.setObjectName(u"spinBox_uploadDelay")
-        self.spinBox_uploadDelay.setMaximum(100000)
-        self.spinBox_uploadDelay.setValue(1500)
-
-        self.gridLayout.addWidget(self.spinBox_uploadDelay, 3, 3, 1, 1)
-
-        self.btn_loadBonuses = QPushButton(self.groupBox_loadEngine)
-        self.btn_loadBonuses.setObjectName(u"btn_loadBonuses")
-
-        self.gridLayout.addWidget(self.btn_loadBonuses, 2, 2, 1, 1)
-
         self.groupBox = QGroupBox(self.groupBox_loadEngine)
         self.groupBox.setObjectName(u"groupBox")
         self.gridLayout_7 = QGridLayout(self.groupBox)
@@ -172,26 +84,114 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addWidget(self.groupBox, 0, 3, 3, 2)
 
-        self.spinBox_endLoad = QSpinBox(self.groupBox_loadEngine)
-        self.spinBox_endLoad.setObjectName(u"spinBox_endLoad")
-        self.spinBox_endLoad.setMaximum(1000)
+        self.btn_loadSectors = QPushButton(self.groupBox_loadEngine)
+        self.btn_loadSectors.setObjectName(u"btn_loadSectors")
+        font = QFont()
+        font.setPointSize(7)
+        self.btn_loadSectors.setFont(font)
 
-        self.gridLayout.addWidget(self.spinBox_endLoad, 4, 4, 1, 1)
+        self.gridLayout.addWidget(self.btn_loadSectors, 1, 2, 1, 1)
 
-        self.label_login = QLabel(self.groupBox_loadEngine)
-        self.label_login.setObjectName(u"label_login")
+        self.checkBox_yo = QCheckBox(self.groupBox_loadEngine)
+        self.checkBox_yo.setObjectName(u"checkBox_yo")
+        self.checkBox_yo.setChecked(True)
 
-        self.gridLayout.addWidget(self.label_login, 0, 0, 1, 1)
+        self.gridLayout.addWidget(self.checkBox_yo, 3, 4, 1, 1)
+
+        self.label_domain = QLabel(self.groupBox_loadEngine)
+        self.label_domain.setObjectName(u"label_domain")
+
+        self.gridLayout.addWidget(self.label_domain, 2, 0, 1, 1)
+
+        self.label_gameId = QLabel(self.groupBox_loadEngine)
+        self.label_gameId.setObjectName(u"label_gameId")
+
+        self.gridLayout.addWidget(self.label_gameId, 3, 0, 1, 1)
+
+        self.lineEdit_domain = QLineEdit(self.groupBox_loadEngine)
+        self.lineEdit_domain.setObjectName(u"lineEdit_domain")
+
+        self.gridLayout.addWidget(self.lineEdit_domain, 2, 1, 1, 1)
+
+        self.label_levelNum = QLabel(self.groupBox_loadEngine)
+        self.label_levelNum.setObjectName(u"label_levelNum")
+
+        self.gridLayout.addWidget(self.label_levelNum, 4, 0, 1, 1)
+
+        self.lineEdit_password = QLineEdit(self.groupBox_loadEngine)
+        self.lineEdit_password.setObjectName(u"lineEdit_password")
+        self.lineEdit_password.setEchoMode(QLineEdit.Password)
+
+        self.gridLayout.addWidget(self.lineEdit_password, 1, 1, 1, 1)
+
+        self.lineEdit_gameId = QLineEdit(self.groupBox_loadEngine)
+        self.lineEdit_gameId.setObjectName(u"lineEdit_gameId")
+
+        self.gridLayout.addWidget(self.lineEdit_gameId, 3, 1, 1, 1)
+
+        self.spinBox_startLoad = QSpinBox(self.groupBox_loadEngine)
+        self.spinBox_startLoad.setObjectName(u"spinBox_startLoad")
+        self.spinBox_startLoad.setMaximum(1000)
+        self.spinBox_startLoad.setValue(1)
+
+        self.gridLayout.addWidget(self.spinBox_startLoad, 4, 3, 1, 1)
+
+        self.label_pass = QLabel(self.groupBox_loadEngine)
+        self.label_pass.setObjectName(u"label_pass")
+
+        self.gridLayout.addWidget(self.label_pass, 1, 0, 1, 1)
+
+        self.label_startLoad = QLabel(self.groupBox_loadEngine)
+        self.label_startLoad.setObjectName(u"label_startLoad")
+
+        self.gridLayout.addWidget(self.label_startLoad, 4, 2, 1, 1)
+
+        self.btn_loadBonuses = QPushButton(self.groupBox_loadEngine)
+        self.btn_loadBonuses.setObjectName(u"btn_loadBonuses")
+
+        self.gridLayout.addWidget(self.btn_loadBonuses, 2, 2, 1, 1)
+
+        self.btn_loadTask = QPushButton(self.groupBox_loadEngine)
+        self.btn_loadTask.setObjectName(u"btn_loadTask")
+        self.btn_loadTask.setFont(font)
+
+        self.gridLayout.addWidget(self.btn_loadTask, 0, 2, 1, 1)
+
+        self.spinBox_uploadDelay = QSpinBox(self.groupBox_loadEngine)
+        self.spinBox_uploadDelay.setObjectName(u"spinBox_uploadDelay")
+        self.spinBox_uploadDelay.setMaximum(100000)
+        self.spinBox_uploadDelay.setValue(1500)
+
+        self.gridLayout.addWidget(self.spinBox_uploadDelay, 3, 3, 1, 1)
 
         self.lineEdit_login = QLineEdit(self.groupBox_loadEngine)
         self.lineEdit_login.setObjectName(u"lineEdit_login")
 
         self.gridLayout.addWidget(self.lineEdit_login, 0, 1, 1, 1)
 
+        self.label_login = QLabel(self.groupBox_loadEngine)
+        self.label_login.setObjectName(u"label_login")
+
+        self.gridLayout.addWidget(self.label_login, 0, 0, 1, 1)
+
+        self.spinBox_endLoad = QSpinBox(self.groupBox_loadEngine)
+        self.spinBox_endLoad.setObjectName(u"spinBox_endLoad")
+        self.spinBox_endLoad.setMaximum(1000)
+
+        self.gridLayout.addWidget(self.spinBox_endLoad, 4, 4, 1, 1)
+
         self.label_uploadDelay = QLabel(self.groupBox_loadEngine)
         self.label_uploadDelay.setObjectName(u"label_uploadDelay")
 
         self.gridLayout.addWidget(self.label_uploadDelay, 3, 2, 1, 1)
+
+        self.spinBox_levelNum = QSpinBox(self.groupBox_loadEngine)
+        self.spinBox_levelNum.setObjectName(u"spinBox_levelNum")
+        self.spinBox_levelNum.setMaximumSize(QSize(100, 16777215))
+        self.spinBox_levelNum.setMaximum(1000)
+        self.spinBox_levelNum.setValue(1)
+
+        self.gridLayout.addWidget(self.spinBox_levelNum, 4, 1, 1, 1)
 
 
         self.gridLayout_6.addWidget(self.groupBox_loadEngine, 1, 2, 1, 1)
@@ -256,7 +256,7 @@ class Ui_MainWindow(object):
 
         self.spinBox_imagesRelevance = QSpinBox(self.groupBox_fillImages)
         self.spinBox_imagesRelevance.setObjectName(u"spinBox_imagesRelevance")
-        self.spinBox_imagesRelevance.setValue(30)
+        self.spinBox_imagesRelevance.setValue(10)
 
         self.gridLayout_5.addWidget(self.spinBox_imagesRelevance, 3, 1, 1, 1)
 
@@ -282,7 +282,7 @@ class Ui_MainWindow(object):
         self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.groupBox_fillAssoc = QGroupBox(self.tab)
         self.groupBox_fillAssoc.setObjectName(u"groupBox_fillAssoc")
-        sizePolicy = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Preferred)
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.groupBox_fillAssoc.sizePolicy().hasHeightForWidth())
@@ -354,7 +354,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 721, 332))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 98, 28))
         self.gridLayout_3 = QGridLayout(self.scrollAreaWidgetContents)
         self.gridLayout_3.setObjectName(u"gridLayout_3")
         self.layout_olimp = QGridLayout()
@@ -474,24 +474,24 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440 \u0437\u0430\u0434\u0430\u043d\u0438\u0439", None))
         self.groupBox_params.setTitle(QCoreApplication.translate("MainWindow", u"\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438", None))
         self.groupBox_loadEngine.setTitle(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440\u0443\u0437\u043a\u0430 \u0432 \u0434\u0432\u0438\u0436\u043e\u043a", None))
-        self.checkBox_yo.setText(QCoreApplication.translate("MainWindow", u"\u0415 = \u0401", None))
-        self.btn_loadSectors.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440. \u0441\u0435\u043a\u0442\u043e\u0440\u044b", None))
-        self.label_domain.setText(QCoreApplication.translate("MainWindow", u"\u0414\u043e\u043c\u0435\u043d", None))
-        self.label_levelNum.setText(QCoreApplication.translate("MainWindow", u"\u2116 \u0443\u0440\u043e\u0432\u043d\u044f", None))
-        self.label_gameId.setText(QCoreApplication.translate("MainWindow", u"id \u0438\u0433\u0440\u044b", None))
-        self.lineEdit_domain.setText(QCoreApplication.translate("MainWindow", u"tech.en.cx", None))
-        self.label_pass.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0430\u0440\u043e\u043b\u044c", None))
-        self.lineEdit_password.setText(QCoreApplication.translate("MainWindow", u"password", None))
-        self.lineEdit_gameId.setText(QCoreApplication.translate("MainWindow", u"75356", None))
-        self.btn_loadTask.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440. \u0437\u0430\u0434\u0430\u043d\u0438\u0435", None))
-        self.label_startLoad.setText(QCoreApplication.translate("MainWindow", u"\u0421\u0442\u0430\u0440\u0442/ \u043a\u043e\u043d\u0435\u0446", None))
-        self.btn_loadBonuses.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440. \u0431\u043e\u043d\u0443\u0441\u044b", None))
         self.groupBox.setTitle(QCoreApplication.translate("MainWindow", u"\u0411\u043e\u043d\u0443\u0441\u044b", None))
         self.label_hours.setText(QCoreApplication.translate("MainWindow", u"\u0427\u0430\u0441\u043e\u0432", None))
         self.label_minutes.setText(QCoreApplication.translate("MainWindow", u"\u041c\u0438\u043d\u0443\u0442", None))
         self.label_seconds.setText(QCoreApplication.translate("MainWindow", u"\u0421\u0435\u043a\u0443\u043d\u0434", None))
-        self.label_login.setText(QCoreApplication.translate("MainWindow", u"\u041b\u043e\u0433\u0438\u043d", None))
+        self.btn_loadSectors.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440. \u0441\u0435\u043a\u0442\u043e\u0440\u044b", None))
+        self.checkBox_yo.setText(QCoreApplication.translate("MainWindow", u"\u0415 = \u0401", None))
+        self.label_domain.setText(QCoreApplication.translate("MainWindow", u"\u0414\u043e\u043c\u0435\u043d", None))
+        self.label_gameId.setText(QCoreApplication.translate("MainWindow", u"id \u0438\u0433\u0440\u044b", None))
+        self.lineEdit_domain.setText(QCoreApplication.translate("MainWindow", u"tech.en.cx", None))
+        self.label_levelNum.setText(QCoreApplication.translate("MainWindow", u"\u2116 \u0443\u0440\u043e\u0432\u043d\u044f", None))
+        self.lineEdit_password.setText(QCoreApplication.translate("MainWindow", u"password", None))
+        self.lineEdit_gameId.setText(QCoreApplication.translate("MainWindow", u"75356", None))
+        self.label_pass.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0430\u0440\u043e\u043b\u044c", None))
+        self.label_startLoad.setText(QCoreApplication.translate("MainWindow", u"\u0421\u0442\u0430\u0440\u0442/ \u043a\u043e\u043d\u0435\u0446", None))
+        self.btn_loadBonuses.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440. \u0431\u043e\u043d\u0443\u0441\u044b", None))
+        self.btn_loadTask.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0433\u0440. \u0437\u0430\u0434\u0430\u043d\u0438\u0435", None))
         self.lineEdit_login.setText(QCoreApplication.translate("MainWindow", u"Temig", None))
+        self.label_login.setText(QCoreApplication.translate("MainWindow", u"\u041b\u043e\u0433\u0438\u043d", None))
         self.label_uploadDelay.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0430\u0434\u0435\u0440\u0436\u043a\u0430, \u043c\u0441", None))
         self.groupBox_fillImages.setTitle(QCoreApplication.translate("MainWindow", u"\u0417\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0430\u043c\u0438 \u0438\u0437 \u043f\u043e\u0438\u0441\u043a\u0430", None))
         self.btn_saveToDisk.setText(QCoreApplication.translate("MainWindow", u"\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u0430 \u0434\u0438\u0441\u043a", None))
