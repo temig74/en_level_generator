@@ -1,1 +1,0 @@
-<script type="text/javascript">document.getElementById("{level_num}_{i}").innerHTML="<p class=up>{answer}</p>";</script>

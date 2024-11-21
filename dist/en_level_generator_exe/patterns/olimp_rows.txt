@@ -1,1 +1,0 @@
-<td id="{level_number}_{sector_number}" rowspan="{rowspan}">Сектор {sector_number}</td>
