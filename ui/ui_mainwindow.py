@@ -256,7 +256,7 @@ class Ui_MainWindow(object):
 
         self.spinBox_imagesRelevance = QSpinBox(self.groupBox_fillImages)
         self.spinBox_imagesRelevance.setObjectName(u"spinBox_imagesRelevance")
-        self.spinBox_imagesRelevance.setValue(10)
+        self.spinBox_imagesRelevance.setValue(30)
 
         self.gridLayout_5.addWidget(self.spinBox_imagesRelevance, 3, 1, 1, 1)
 
@@ -498,8 +498,8 @@ class Ui_MainWindow(object):
         self.label_imagesDelay.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0430\u0434\u0435\u0440\u0436\u043a\u0430, \u043c\u0441", None))
         self.label_prefix.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u0435\u0444\u0438\u043a\u0441 ", None))
         self.lineEdit_prefix.setText(QCoreApplication.translate("MainWindow", u"Qg4g342g_1", None))
-        self.lineEdit_yandexClass.setText(QCoreApplication.translate("MainWindow", u"serp-item__thumb", None))
-        self.lineEdit_googleClass.setText(QCoreApplication.translate("MainWindow", u"yWs4tf", None))
+        self.lineEdit_yandexClass.setText(QCoreApplication.translate("MainWindow", u"avatars.mds.yandex.net.*?n=13", None))
+        self.lineEdit_googleClass.setText(QCoreApplication.translate("MainWindow", u"DS1iW", None))
         self.btn_loadImagesYandex.setText(QCoreApplication.translate("MainWindow", u"\u042f\u043d\u0434\u0435\u043a\u0441", None))
         self.btn_loadImagesGoogle.setText(QCoreApplication.translate("MainWindow", u"Google", None))
         self.label_imagesRelevance.setText(QCoreApplication.translate("MainWindow", u"\u0420\u0435\u043b\u0435\u0432\u0430\u043d\u0442\u043d\u043e\u0441\u0442\u044c", None))

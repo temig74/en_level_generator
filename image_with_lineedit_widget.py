@@ -1,3 +1,5 @@
+import re
+
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLineEdit, QLabel, QFileDialog, QApplication
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QPixmap
@@ -52,15 +54,27 @@ class ImageWithLineedit(QWidget):
         req = Request(url=url, headers={'User-Agent': 'Mozilla/5.0'})
         rs = urlopen(req)
         html = BeautifulSoup(rs, 'html.parser')
-        image_links = html.find_all('img', class_=img_class)
-        if not image_links:
-            print(f'возможно блокировка капчей {search_type} {rs.url}')
-            return
+        #print(html)
+        if search_type == 'google':
+            image_links = html.find_all('img', class_=img_class)
+            if not image_links:
+                print(f'возможно блокировка капчей {search_type} {rs.url}')
+                return
+            if image_number < len(image_links):
+                url2 = image_links[image_number].get('src')
+            else:
+                url2 = image_links[randint(0, len(image_links) - 1)].get('src')
 
-        if image_number < len(image_links):
-            url2 = image_links[image_number].get('src')
-        else:
-            url2 = image_links[randint(0, len(image_links) - 1)].get('src')
         if search_type == 'yandex':
-            url2 = 'https:' + url2
+            #regex_pattern = r'https://avatars\.mds\.yandex\.net/[^&]+?/orig'
+            image_links = re.findall(img_class, str(html))
+            image_links = list(map(lambda x: 'https://'+x, image_links))
+            if not image_links:
+                print(f'возможно блокировка капчей {search_type} {rs.url}')
+                return
+            if image_number < len(image_links):
+                url2 = image_links[image_number]
+            else:
+                url2 = image_links[randint(0, len(image_links) - 1)]
+
         return urlopen(url2).read()
